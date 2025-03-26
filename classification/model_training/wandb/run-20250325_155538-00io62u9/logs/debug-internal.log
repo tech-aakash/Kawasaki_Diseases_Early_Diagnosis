@@ -1,0 +1,16 @@
+{"time":"2025-03-25T15:55:38.577800027Z","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/azureuser/kawasaki-diseases/classification/model_training/wandb/run-20250325_155538-00io62u9/logs/debug-core.log"}
+{"time":"2025-03-25T15:55:38.68037756Z","level":"INFO","msg":"created new stream","id":"00io62u9"}
+{"time":"2025-03-25T15:55:38.680417979Z","level":"INFO","msg":"stream: started","id":"00io62u9"}
+{"time":"2025-03-25T15:55:38.680436023Z","level":"INFO","msg":"writer: Do: started","stream_id":"00io62u9"}
+{"time":"2025-03-25T15:55:38.680454334Z","level":"INFO","msg":"handler: started","stream_id":"00io62u9"}
+{"time":"2025-03-25T15:55:38.680496785Z","level":"INFO","msg":"sender: started","stream_id":"00io62u9"}
+{"time":"2025-03-25T15:55:38.812929581Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-25T15:58:41.425345049Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-25T15:58:41.425840073Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-25T15:58:42.427217464Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run_00io62u9_model","runtime_seconds":1.003961911,"subtasks":[{"desc":"best.pt","runtime_seconds":0.679608392,"progress":"50.8MB/54.4MB"}]}],"total_operations":1}}
+{"time":"2025-03-25T15:58:42.981885471Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-25T15:58:43.099539144Z","level":"INFO","msg":"stream: closing","id":"00io62u9"}
+{"time":"2025-03-25T15:58:43.099556377Z","level":"INFO","msg":"handler: closed","stream_id":"00io62u9"}
+{"time":"2025-03-25T15:58:43.099563672Z","level":"INFO","msg":"writer: Close: closed","stream_id":"00io62u9"}
+{"time":"2025-03-25T15:58:43.09958023Z","level":"INFO","msg":"sender: closed","stream_id":"00io62u9"}
+{"time":"2025-03-25T15:58:43.099600533Z","level":"INFO","msg":"stream: closed","id":"00io62u9"}

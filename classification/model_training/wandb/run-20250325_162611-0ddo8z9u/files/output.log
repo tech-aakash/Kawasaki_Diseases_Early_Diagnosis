@@ -1,0 +1,31 @@
+[34m[1mAMP: [0mrunning Automatic Mixed Precision (AMP) checks...
+[34m[1mAMP: [0mchecks passed ✅
+[34m[1mtrain: [0mScanning /home/azureuser/kawasaki-diseases/classification/Yolo_Data/datasets/train_test_val/train... 535 images, 0 corrupt: 100%|██████████| 535/535 [00:00<00:00, 4059.31it/s]
+[34m[1mtrain: [0mNew cache created: /home/azureuser/kawasaki-diseases/classification/Yolo_Data/datasets/train_test_val/train.cache
+[34m[1mval: [0mScanning /home/azureuser/kawasaki-diseases/classification/Yolo_Data/datasets/train_test_val/val... 107 images, 0 corrupt: 100%|██████████| 107/107 [00:00<00:00, 1703.51it/s]
+[34m[1mval: [0mNew cache created: /home/azureuser/kawasaki-diseases/classification/Yolo_Data/datasets/train_test_val/val.cache
+[34m[1moptimizer:[0m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[0m AdamW(lr=0.001667, momentum=0.9) with parameter groups 82 weight(decay=0.0), 83 weight(decay=0.0005), 83 bias(decay=0.0)
+Image sizes 224 train, 224 val
+Using 8 dataloader workers
+Logging results to [1mKawasaki Diseases/Yolo v11-foot_stages-augmented[0m
+Starting training for 50 epochs...
+
+      Epoch    GPU_mem       loss  Instances       Size
+       1/50      1.95G     0.5759          7        224: 100%|██████████| 34/34 [00:03<00:00,  9.35it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 4/4 [00:00<00:00, 19.01it/s]
+                   all      0.645          1
+Traceback (most recent call last):
+  File "/home/azureuser/kawasaki-diseases/classification/model_training/foot_stages.py", line 13, in <module>
+    model.train(
+  File "/home/azureuser/anaconda3/envs/kawasaki_diseases/lib/python3.9/site-packages/ultralytics/engine/model.py", line 791, in train
+    self.trainer.train()
+  File "/home/azureuser/anaconda3/envs/kawasaki_diseases/lib/python3.9/site-packages/ultralytics/engine/trainer.py", line 211, in train
+    self._do_train(world_size)
+  File "/home/azureuser/anaconda3/envs/kawasaki_diseases/lib/python3.9/site-packages/ultralytics/engine/trainer.py", line 444, in _do_train
+    self.save_model()
+  File "/home/azureuser/anaconda3/envs/kawasaki_diseases/lib/python3.9/site-packages/ultralytics/engine/trainer.py", line 552, in save_model
+    self.best.write_bytes(serialized_ckpt)  # save best.pt
+  File "/home/azureuser/anaconda3/envs/kawasaki_diseases/lib/python3.9/pathlib.py", line 1276, in write_bytes
+    return f.write(view)
+OSError: [Errno 28] No space left on device

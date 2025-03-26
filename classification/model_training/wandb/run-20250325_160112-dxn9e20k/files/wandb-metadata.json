@@ -1,0 +1,38 @@
+{
+  "os": "Linux-6.8.0-1021-azure-x86_64-with-glibc2.39",
+  "python": "CPython 3.9.21",
+  "startedAt": "2025-03-25T16:01:12.216053Z",
+  "program": "/home/azureuser/kawasaki-diseases/classification/model_training/hand_stages.py",
+  "codePath": "hand_stages.py",
+  "email": "aakash.muskurahat@gmail.com",
+  "root": "/home/azureuser/kawasaki-diseases/classification/model_training",
+  "host": "construction-project-1",
+  "executable": "/home/azureuser/anaconda3/envs/kawasaki_diseases/bin/python3",
+  "codePathLocal": "hand_stages.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "gpu": "Tesla T4",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "65445814272",
+      "used": "64794804224"
+    }
+  },
+  "memory": {
+    "total": "58915184640"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 8
+  },
+  "gpu_nvidia": [
+    {
+      "name": "Tesla T4",
+      "memoryTotal": "17179869184",
+      "cudaCores": 2560,
+      "architecture": "Turing"
+    }
+  ],
+  "cudaVersion": "12.2"
+}

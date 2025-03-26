@@ -1,0 +1,15 @@
+{"time":"2025-03-25T14:15:10.54858852Z","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpqal93hri/port-38696.txt","pid":38696,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-03-25T14:15:10.554489338Z","level":"INFO","msg":"Will exit if parent process dies.","ppid":38696}
+{"time":"2025-03-25T14:15:10.554468137Z","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":34001,"Zone":""}}
+{"time":"2025-03-25T14:15:10.738561236Z","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:57268"}
+{"time":"2025-03-25T14:15:12.363919356Z","level":"INFO","msg":"handleInformInit: received","streamId":"nkrxfun3","id":"127.0.0.1:57268"}
+{"time":"2025-03-25T14:15:12.466384183Z","level":"INFO","msg":"handleInformInit: stream started","streamId":"nkrxfun3","id":"127.0.0.1:57268"}
+{"time":"2025-03-25T14:17:42.497908528Z","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"nkrxfun3","id":"127.0.0.1:57268"}
+{"time":"2025-03-25T14:17:42.498006748Z","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"nkrxfun3","id":"127.0.0.1:57268"}
+{"time":"2025-03-25T14:17:43.497482169Z","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:57268"}
+{"time":"2025-03-25T14:17:43.497502348Z","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:57268"}
+{"time":"2025-03-25T14:17:43.49750852Z","level":"INFO","msg":"server is shutting down"}
+{"time":"2025-03-25T14:17:43.497534347Z","level":"INFO","msg":"connection: closing","id":"127.0.0.1:57268"}
+{"time":"2025-03-25T14:17:43.497642761Z","level":"INFO","msg":"connection: closed successfully","id":"127.0.0.1:57268"}
+{"time":"2025-03-25T14:17:43.497656948Z","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:57268"}
+{"time":"2025-03-25T14:17:43.497671767Z","level":"INFO","msg":"server is closed"}

@@ -1,0 +1,15 @@
+{"time":"2025-03-25T16:31:56.139989517Z","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmp4uhvk48s/port-43794.txt","pid":43794,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-03-25T16:31:56.145781405Z","level":"INFO","msg":"Will exit if parent process dies.","ppid":43794}
+{"time":"2025-03-25T16:31:56.145776675Z","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":44885,"Zone":""}}
+{"time":"2025-03-25T16:31:56.330536544Z","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:53930"}
+{"time":"2025-03-25T16:31:57.966848846Z","level":"INFO","msg":"handleInformInit: received","streamId":"sfn85kii","id":"127.0.0.1:53930"}
+{"time":"2025-03-25T16:31:58.069882802Z","level":"INFO","msg":"handleInformInit: stream started","streamId":"sfn85kii","id":"127.0.0.1:53930"}
+{"time":"2025-03-25T16:35:16.289939761Z","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"sfn85kii","id":"127.0.0.1:53930"}
+{"time":"2025-03-25T16:35:16.290061722Z","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"sfn85kii","id":"127.0.0.1:53930"}
+{"time":"2025-03-25T16:35:17.289521346Z","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:53930"}
+{"time":"2025-03-25T16:35:17.289543639Z","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:53930"}
+{"time":"2025-03-25T16:35:17.289550122Z","level":"INFO","msg":"server is shutting down"}
+{"time":"2025-03-25T16:35:17.289565235Z","level":"INFO","msg":"connection: closing","id":"127.0.0.1:53930"}
+{"time":"2025-03-25T16:35:17.289620632Z","level":"INFO","msg":"connection: closed successfully","id":"127.0.0.1:53930"}
+{"time":"2025-03-25T16:35:17.289626915Z","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:53930"}
+{"time":"2025-03-25T16:35:17.289635491Z","level":"INFO","msg":"server is closed"}

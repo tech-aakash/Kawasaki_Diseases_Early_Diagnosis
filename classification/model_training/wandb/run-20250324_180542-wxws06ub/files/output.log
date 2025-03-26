@@ -1,0 +1,101 @@
+[34m[1mAMP: [0mrunning Automatic Mixed Precision (AMP) checks...
+Downloading https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11n.pt to 'yolo11n.pt'...
+100%|██████████| 5.35M/5.35M [00:00<00:00, 228MB/s]
+[34m[1mAMP: [0mchecks passed ✅
+[34m[1mtrain: [0mScanning /home/azureuser/kawasaki-diseases/classification/Yolo_Data/datasets/train_test_val/train... 201 images, 0 corrupt: 100%|██████████| 201/201 [00:00<00:00, 1046.58it/s]
+[34m[1mtrain: [0mNew cache created: /home/azureuser/kawasaki-diseases/classification/Yolo_Data/datasets/train_test_val/train.cache
+[34m[1mval: [0mScanning /home/azureuser/kawasaki-diseases/classification/Yolo_Data/datasets/train_test_val/val... 58 images, 0 corrupt: 100%|██████████| 58/58 [00:00<00:00, 1948.95it/s]
+[34m[1mval: [0mNew cache created: /home/azureuser/kawasaki-diseases/classification/Yolo_Data/datasets/train_test_val/val.cache
+[34m[1moptimizer:[0m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[0m AdamW(lr=0.001667, momentum=0.9) with parameter groups 82 weight(decay=0.0), 83 weight(decay=0.0005), 83 bias(decay=0.0)
+Image sizes 224 train, 224 val
+Using 8 dataloader workers
+Logging results to [1mKawaski diseases/Yolo v11-body2[0m
+Starting training for 50 epochs...
+
+      Epoch    GPU_mem       loss  Instances       Size
+       1/50      1.95G     0.6611          9        224: 100%|██████████| 13/13 [00:02<00:00,  5.74it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 2/2 [00:00<00:00, 17.62it/s]
+                   all       0.69          1
+
+      Epoch    GPU_mem       loss  Instances       Size
+       2/50      2.28G     0.3666          9        224: 100%|██████████| 13/13 [00:01<00:00, 11.71it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 2/2 [00:00<00:00, 23.91it/s]
+                   all      0.707          1
+
+      Epoch    GPU_mem       loss  Instances       Size
+       3/50      2.35G      0.352          9        224: 100%|██████████| 13/13 [00:01<00:00, 11.78it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 2/2 [00:00<00:00, 24.40it/s]
+                   all       0.69          1
+
+      Epoch    GPU_mem       loss  Instances       Size
+       4/50      2.39G     0.3335          9        224: 100%|██████████| 13/13 [00:01<00:00, 12.02it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 2/2 [00:00<00:00, 24.18it/s]
+                   all      0.793          1
+
+      Epoch    GPU_mem       loss  Instances       Size
+       5/50      2.48G     0.2569          9        224: 100%|██████████| 13/13 [00:01<00:00, 12.54it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 2/2 [00:00<00:00, 23.84it/s]
+                   all      0.707          1
+
+      Epoch    GPU_mem       loss  Instances       Size
+       6/50      2.72G     0.4924          9        224: 100%|██████████| 13/13 [00:01<00:00, 12.28it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 2/2 [00:00<00:00, 24.10it/s]
+                   all      0.724          1
+
+      Epoch    GPU_mem       loss  Instances       Size
+       7/50      2.79G      0.429          9        224: 100%|██████████| 13/13 [00:01<00:00, 12.78it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 2/2 [00:00<00:00, 23.84it/s]
+                   all      0.776          1
+
+      Epoch    GPU_mem       loss  Instances       Size
+       8/50      2.96G     0.4419          9        224: 100%|██████████| 13/13 [00:01<00:00, 12.45it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 2/2 [00:00<00:00, 24.22it/s]
+                   all      0.741          1
+
+      Epoch    GPU_mem       loss  Instances       Size
+       9/50      3.12G     0.5767          9        224: 100%|██████████| 13/13 [00:01<00:00, 12.84it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 2/2 [00:00<00:00, 23.91it/s]
+                   all      0.724          1
+
+      Epoch    GPU_mem       loss  Instances       Size
+      10/50      3.29G     0.6627          9        224: 100%|██████████| 13/13 [00:01<00:00, 12.80it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 2/2 [00:00<00:00, 23.99it/s]
+                   all      0.741          1
+
+      Epoch    GPU_mem       loss  Instances       Size
+      11/50      3.46G     0.5511          9        224: 100%|██████████| 13/13 [00:01<00:00, 12.72it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 2/2 [00:00<00:00, 23.72it/s]
+                   all      0.741          1
+
+      Epoch    GPU_mem       loss  Instances       Size
+      12/50       3.7G     0.7062          9        224: 100%|██████████| 13/13 [00:01<00:00, 11.73it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 2/2 [00:00<00:00, 24.22it/s]
+                   all      0.655          1
+
+      Epoch    GPU_mem       loss  Instances       Size
+      13/50      3.76G     0.6439          9        224: 100%|██████████| 13/13 [00:01<00:00, 12.71it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 2/2 [00:00<00:00, 23.82it/s]
+                   all      0.724          1
+
+      Epoch    GPU_mem       loss  Instances       Size
+      14/50      3.95G     0.5686          9        224: 100%|██████████| 13/13 [00:01<00:00, 12.58it/s]
+               classes   top1_acc   top5_acc: 100%|██████████| 2/2 [00:00<00:00, 23.73it/s]
+                   all      0.586          1
+[34m[1mEarlyStopping: [0mTraining stopped early as no improvement observed in last 10 epochs. Best results observed at epoch 4, best model saved as best.pt.
+To update EarlyStopping(patience=10) pass a new patience value, i.e. `patience=300` or use `patience=0` to disable EarlyStopping.
+
+14 epochs completed in 0.014 hours.
+Optimizer stripped from Kawaski diseases/Yolo v11-body2/weights/last.pt, 57.0MB
+Optimizer stripped from Kawaski diseases/Yolo v11-body2/weights/best.pt, 57.0MB
+
+Validating Kawaski diseases/Yolo v11-body2/weights/best.pt...
+Ultralytics 8.3.94 🚀 Python-3.9.21 torch-2.6.0+cu124 CUDA:0 (Tesla T4, 15948MiB)
+YOLO11x-cls summary (fused): 94 layers, 28,334,978 parameters, 0 gradients, 110.3 GFLOPs
+[34m[1mtrain:[0m /home/azureuser/kawasaki-diseases/classification/Yolo_Data/datasets/train_test_val/train... found 201 images in 2 classes ✅
+[34m[1mval:[0m /home/azureuser/kawasaki-diseases/classification/Yolo_Data/datasets/train_test_val/val... found 58 images in 2 classes ✅
+[34m[1mtest:[0m /home/azureuser/kawasaki-diseases/classification/Yolo_Data/datasets/train_test_val/test... found 29 images in 2 classes ✅
+               classes   top1_acc   top5_acc: 100%|██████████| 2/2 [00:00<00:00, 15.19it/s]
+                   all      0.793          1
+Speed: 0.1ms preprocess, 2.1ms inference, 0.0ms loss, 0.0ms postprocess per image
+Results saved to [1mKawaski diseases/Yolo v11-body2[0m
