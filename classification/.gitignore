@@ -1,4 +1,0 @@
-#ignore folders with weights
-weights/
-Yolo_Data/
-*.pt
